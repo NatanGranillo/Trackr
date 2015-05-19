@@ -7,4 +7,6 @@
     <string name="SignInTitle">Sign In</string>
     <string name="SignInBtnText">Login</string>
     <string name="title_activity_filter">FilterActivity</string>
+    <string name="SignUpbtnText">Sign Up</string>
+    <string name="HelpBtnText">Help</string>
 </resources>

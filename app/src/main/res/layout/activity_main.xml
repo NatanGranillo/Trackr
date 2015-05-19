@@ -25,7 +25,8 @@
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="57dp"
-        android:width="320dp"/>
+        android:width="320dp"
+        android:background="#c7ffffff" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -36,7 +37,8 @@
         android:layout_below="@+id/editText"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="53dp"
-        android:width="320dp"/>
+        android:width="320dp"
+        android:background="#c7ffffff" />
 
     <Button
         android:layout_width="wrap_content"
@@ -45,5 +47,27 @@
         android:id="@+id/button"
         android:layout_below="@+id/editText2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="48dp" />
+        android:layout_marginTop="48dp"
+        android:background="#ff00ff28" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SignUpbtnText"
+        android:id="@+id/button7"
+        android:background="#fff9ff00"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="37dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/HelpBtnText"
+        android:id="@+id/button8"
+        android:layout_alignTop="@+id/button7"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffff2c00" />
 </RelativeLayout>
