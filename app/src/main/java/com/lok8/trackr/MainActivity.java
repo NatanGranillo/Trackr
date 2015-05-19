@@ -4,15 +4,49 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.util.Log;
+import android.widget.RelativeLayout;
+import android.widget.Button;
+import android.graphics.Color;
+import android.widget.EditText;
 
 
 public class MainActivity extends ActionBarActivity {
 
+    private static final String TAG = "androidMessage";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+
+
+        //setContentView(R.layout.activity_main);
+        RelativeLayout trackrLayout = new RelativeLayout(this);
+
+
+        //Login Button
+        Button loginButton = new Button(this);
+        loginButton.setText("Login");
+        loginButton.setBackgroundColor(Color.YELLOW);
+
+        //Username input
+
+        RelativeLayout.LayoutParams buttonDetails = new RelativeLayout.LayoutParams(
+                RelativeLayout.LayoutParams.WRAP_CONTENT,
+                RelativeLayout.LayoutParams.WRAP_CONTENT
+        );
+
+        buttonDetails.addRule(RelativeLayout.CENTER_HORIZONTAL);
+        buttonDetails.addRule(RelativeLayout.CENTER_VERTICAL);
+
+        //Add widget to layout
+        trackrLayout.addView(loginButton);
+
+        setContentView(trackrLayout);
+
+
     }
+
+
 
 
     @Override
