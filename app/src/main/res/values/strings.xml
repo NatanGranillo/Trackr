@@ -6,4 +6,5 @@
     <string name="title_activity_home">HomeActivity</string>
     <string name="SignInTitle">Sign In</string>
     <string name="SignInBtnText">Login</string>
+    <string name="title_activity_filter">FilterActivity</string>
 </resources>
